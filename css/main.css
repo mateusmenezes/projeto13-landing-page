@@ -1,0 +1,6 @@
+/* Eles possui uma hierarquia(possuem prioridades de quem está por ultimo)*/
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./global.css);
+@import url(./estilo.css);
+@import url(./responsive.css);

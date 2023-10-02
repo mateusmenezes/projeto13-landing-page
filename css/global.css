@@ -1,0 +1,42 @@
+/* 
+declaração de variaveis e para chamar essa variavel na no codigo mas usar a tag var(--nome do item dentro da variavel)
+*/
+
+/* 
+a tag :root é para declarar variavel global que serve pra todo o documento
+*/
+:root {
+    --primeiro:#fc5185;
+    --segundo: #364f6b;
+    --medium: #cacaca;
+    --rose:#f73670;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.subtitle{
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: var(--medium);
+}
+.block{
+    margin-bottom: 120px;
+}
+.button{
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.button-primary{
+    background-color: var(--primeiro);
+    border-color: var(--primeiro);
+    color: white;
+}
+.button-primary:hover{
+    background-color: var(--rose);
+    border-color: var(--rose);
+}
